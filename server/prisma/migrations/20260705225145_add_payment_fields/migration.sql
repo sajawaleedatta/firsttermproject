@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Order" ADD COLUMN     "paymentMethod" TEXT NOT NULL DEFAULT 'CASH',
+ADD COLUMN     "paymentStatus" TEXT NOT NULL DEFAULT 'PENDING';
